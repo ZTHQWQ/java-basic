@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="concurrent" />
         <module name="_01_basic" />
+        <module name="openapi3" />
         <module name="swagger" />
       </profile>
     </annotationProcessing>

@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/_01_basic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/concurrent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/concurrent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openapi3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/openapi3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swagger/src/main/resources" charset="UTF-8" />
   </component>
