@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/_01_basic/pom.xml" />
         <option value="$PROJECT_DIR$/concurrent/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger/pom.xml" />
       </list>
     </option>
   </component>

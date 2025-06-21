@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="concurrent" />
         <module name="_01_basic" />
+        <module name="swagger" />
       </profile>
     </annotationProcessing>
   </component>
