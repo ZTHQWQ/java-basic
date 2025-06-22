@@ -30,11 +30,20 @@
             <scope>test</scope>
         </dependency>
 
+
+<!--&lt;!&ndash;springboot 3&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springdoc</groupId>-->
+<!--            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>-->
+<!--            <version>2.5.0</version> &lt;!&ndash; 请查看最新版本 &ndash;&gt;-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>2.5.0</version> <!-- 请查看最新版本 -->
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.7.0</version> <!-- 对应 Spring Boot 2 -->
         </dependency>
+
 
 
         <!--        设置访问密码-->

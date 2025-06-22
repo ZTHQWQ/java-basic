@@ -24,10 +24,13 @@ spring:
 
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.example.demo.entity
+  type-aliases-package: com.openapi3.entity
   configuration:
     map-underscore-to-camel-case: true
 
 server:
-  servlet:
-    context-path: /content
+#  servlet:
+#    context-path: /content
+  port: 8080
+
+
