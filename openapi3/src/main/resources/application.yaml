@@ -27,10 +27,13 @@ mybatis-plus:
   type-aliases-package: com.openapi3.entity
   configuration:
     map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
 
 server:
 #  servlet:
 #    context-path: /content
   port: 8080
 
-
+logging:
+  level:
+    com.openapi3.mapper: debug
