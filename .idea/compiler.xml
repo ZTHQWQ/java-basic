@@ -7,9 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="concurrent" />
         <module name="_01_basic" />
+        <module name="junit5" />
         <module name="openapi3" />
+        <module name="mybatis" />
+        <module name="concurrent" />
+        <module name="knife4j" />
         <module name="swagger" />
       </profile>
     </annotationProcessing>

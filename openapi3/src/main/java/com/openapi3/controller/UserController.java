@@ -8,7 +8,6 @@ import com.openapi3.service.UserInfoService;
 import com.openapi3.utils.Result;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.Parameters;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -49,6 +48,7 @@ public class UserController {
         IPage<UserInfo> page = new Page<>(0, 10);
         IPage<UserInfo> userList = userInfoService.page(page, queryWrapper);
         System.out.println(userList.toString());
+
         return Result.success(userList);
     }
 

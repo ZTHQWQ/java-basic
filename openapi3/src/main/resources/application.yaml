@@ -32,7 +32,7 @@ mybatis-plus:
 server:
 #  servlet:
 #    context-path: /content
-  port: 8080
+  port: 8090
 
 logging:
   level:
